@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "antivanish",
+  "version": "1.0.0",
+  "name": "AntiVanish",
+  "description": "Notifies you when players are in your render distance and shows a Mining Fatigue style jumpscare with a chosen player's head.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.antivanish.AntiVanishClient"],
+    "modmenu": ["com.antivanish.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
